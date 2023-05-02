@@ -1,0 +1,17 @@
+.window-info{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.tab-list{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.tab-ele:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+.disable{
+    pointer-events: none;
+}
